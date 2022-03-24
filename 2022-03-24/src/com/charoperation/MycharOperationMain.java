@@ -3,7 +3,7 @@ package com.charoperation;
 public class MycharOperationMain {
     public static void main(String args[])
     {
-        MycharOperation m1= new MycharOperation('C');
+        MycharOperation m1= new MycharOperation('E');
         System.out.println("Entered charcter is "+m1.getCh());
         System.out.println("Character Is vowel :"+m1.isVowel());
 
