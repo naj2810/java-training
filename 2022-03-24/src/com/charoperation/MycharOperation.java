@@ -41,14 +41,14 @@ public class MycharOperation {
     }
     public boolean isAlphabet()
     {
-        if(ch>=97 && ch<=122)
+        if((ch>=97 && ch<=122)|| (ch>=65 && ch<=90))
             return true;
-        else
+      
             return  false;
     }
     public boolean isDigit()
     {
-        if((ch>=48 && ch<=57) &&(ch==65 && ch==90) )
+        if(ch>=48 && ch<=57 )
             return true;
         else{
             return false;
@@ -59,14 +59,14 @@ public class MycharOperation {
     {
         for(ch='a';ch<='z';ch++)
         {
-            System.out.println(""+ch);
+            System.out.println("\t"+ch);
         }
     }
     public void printUpperAlphabet()
     {
         for(ch='A';ch<='Z';ch++)
         {
-            System.out.println(""+ch);
+            System.out.println("\t"+ch);
         }
     }
 }
