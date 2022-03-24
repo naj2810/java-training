@@ -26,8 +26,13 @@ public class ShoppingSystem {
         System.out.println("\n********************** Shopping Cart Operation********************");
 
         ShoppingCart sc=new ShoppingCart();
+        sc.setItems(15);
         sc.add("Towel");
         sc.add("Rice");
+        sc.add("Pen");
+        int items=sc.getItems();
+        System.out.println("\n Number of items in a list ,now"+items);
+
         sc.remove("Towel");
     }
 }
