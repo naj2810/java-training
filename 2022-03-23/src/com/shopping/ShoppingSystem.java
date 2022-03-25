@@ -5,12 +5,20 @@ public class ShoppingSystem {
         System.out.println("\n ***************Customer Class Operations***********************");
 
         Customer c1=new Customer();
+        Customer c2=new Customer();
         c1.setName("Ajay");
-        c1.setName("Rahul");
         String Name=c1.getName();
         c1.login(Name);
         c1.logout();
         c1.selectProduct("Cloths");
+
+        c2.setName("Rahul");
+
+        c2.login(c2.getName());
+        c2.logout();
+        c2.selectProduct("Vegetabale")
+
+
 
         System.out.println("\n ******************Product Class Operation********************");
 
