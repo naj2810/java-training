@@ -16,7 +16,7 @@ public class WhileLoopEx {
         System.out.println("\n The Squares Upto "+number1+" are:");
         while (i<=number1)
         {
-            System.out.println("\n "+i+"10: "+(i*i));
+            System.out.println("\n "+i+": "+(i*i));
             i++;
         }
 
