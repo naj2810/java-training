@@ -16,7 +16,7 @@ class Practice2_Multipication
         {
             System.out.println(c+d);
         }
-        System.out.print("\n Enter number,whose table you want");
+        System.out.print("\n Enter number,whose table you want:");
         int number = sc.nextInt();
         for (int i = 1; i <= 10; i++) {
             System.out.println("" + number + "*" + "" + i + "=" + (number * i));
