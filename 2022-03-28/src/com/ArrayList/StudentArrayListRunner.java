@@ -1,6 +1,6 @@
-package com;
+package com.Array;
 
-import com.Array.Student;
+
 import com.ArrayList.StudentArraylist;
 
 import java.util.ArrayList;
