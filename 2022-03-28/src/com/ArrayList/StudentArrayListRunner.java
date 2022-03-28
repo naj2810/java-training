@@ -1,7 +1,7 @@
-package com.Array;
+package com.ArrayList;
 
 
-import com.ArrayList.StudentArraylist;
+
 
 import java.util.ArrayList;
 
