@@ -15,6 +15,7 @@ public class RectangleRunner {
         System.out.println(""+rectangle.toStringF());
 
 
+       
         /*System.out.println("Area of Rectagle is:"+ rectangle.area());
         System.out.println("Perimeter of Rectangle is" +rectangle.perimeter());*/
     }
