@@ -8,14 +8,15 @@ public class BookMain {
         System.out.println("Enter Information of Book,that you want to add:");
 
         Scanner scanner=new Scanner(System.in);
+        Scanner sc1=new Scanner(System.in);
 
 
             System.out.println("Enter Book id");
             int id = scanner.nextInt();
             System.out.println("Enter Book Name");
-            String name = scanner.next();
+            String name = sc1.nextLine();
             System.out.println("Enter Book Author");
-            String author = scanner.next();
+            String author = sc1.nextLine();
 
              Book book = new Book(id, name, author);
 
@@ -25,7 +26,7 @@ public class BookMain {
         int id1=scanner.nextInt();
         if(id1==book.id) {
             System.out.println("\n Enter Description");
-            String description = scanner.next();
+            String description = sc1.nextLine();
 
           label:  System.out.println("Enter rating out of 5");
             int rating = scanner.nextInt();
